@@ -130,6 +130,15 @@ class ClassInfo:
     associations: List[Association]
 ```
 
+详细设计请移步代码，比如图的语言描述：
+```python
+@dataclass
+class Message:
+    sender: str
+    receiver: str
+    message_type: str
+    order: str
+```
 #### 代码实现（3.py）
 
 ```python
@@ -200,12 +209,6 @@ async def main() -> None:
 if __name__ == "__main__":
     asyncio.run(main())
 ```
-
-### 配置说明
-
-- 在代码中替换`API_URL`和`API_KEY`为实验提供的参数：
-  - BASE_URL: https://api.chatfire.cn/v1
-  - API_KEY: sk-zO8exlBicZh7nJeZn5GuC5X9SPuVrZzXoGyOW0i9BFvN62ON
 
 ## 生成的需求模型说明（为了减少迭代优化次数，只说明简单需求，详细需求参考lab01的设计）
 
