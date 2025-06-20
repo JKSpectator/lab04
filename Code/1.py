@@ -1,0 +1,4 @@
+# 纯 Restful API 建模
+# curl '' -H "Content-Type: application/json" -H "Authorization: Bearer " -d '{"model":"gpt-4o","messages":[{"role":"developer","content":"You are a helpful assistant."},{"role":"user","content":"I would like to model an AI panoramic system. The users mainly include panorama image collectors, AI maintainers, administrators, and general users. The system should allow users to log in to the website to view panoramic images and ask questions to the AI. Panorama image collectors should be able to gather panoramic images and upload them to the website's database. AI maintainers are responsible for deploying interactive AI, and administrators manage other users."}]'
+
+# windows不能直接用
